@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body {
+	background-color: #eceeff;
+	font-family: 'Jua', sans-serif;
+}
+
+h1, h2, h3, label, input, #mif, button, #button1, matjip {
+	font-family: 'Jua', sans-serif;
+}
+
+#h2, #body {
+	margin: auto;
+}
+
+button {
+	
+}
+
+#lat1, #lat2, #lat3 {
+	width: 40px;
+	align-content: center;
+}
+
+#div2 {
+	width: 100%
+}
+
+a, a:after {
+	color: black;
+}
+
+table {
+	width: 12%;
+	border-style: none;
+	background-color: #2ecc71 /* abe48b */;
+	border-radius: 15px;
+	border-color: #2ecc71;
+}
+
+.div1 {
+	height: 100vh;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center; /* 수직 정렬 */
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center; /* 수평 정렬 */
+}
+
+
+
+input[type=text]{
+	background-color: #eceeff;
+	border-color: none;
+	height: 30px;
+	border-style: none;
+	border-radius: 5px;
+	width: 140px;
+}
+
+div {
+	border: 1px solid #00ff0000;
+}
+
+#h2 {
+	height: 100px;
+	width: 200px;
+}
+
+label {
+	margin: 20px;
+	clear: both;
+}
+
+#mif {
+	border-bottom-color: none;
+}
+
+#moim {
+	width: 520px;
+	height: 250px;
+	border: 1px solid #999;
+	margin-top: 50px;
+	display: inline-block;
+	background-color: #2ecc71;
+	border-color: #2ecc71;
+	border-radius: 10px;
+}
+
+.moimInfo {
+	border-radius: 10px;
+	width: 260px;
+	height: 260px;
+	position: relative;
+	margin-top: 50px;
+	display: none;
+	background-color: #73D69D;
+	border-color: #73D69D;
+}
+
+#favorite {
+	margin: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+select {
+	clear: both;
+}
+
+#body {
+	white-space: nowrap;
+	clear: both;
+}
+
+.btnOut {
+	text-align: center;
+	margin-left: 50px;
+	position: relative;
+}
+
+#ui {
+	margin-top: 110px;
+	width: 100px;
+	display: inline-block;
+}
+
+#lbl {
+	margin-top: 30px;
+}
+
+.info {
+	margin-left: 60px;
+	margin-bottom: 20px;
+	border-color: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 50px;
+}
+
+#lst {
+	position: absolute;
+	margin-top: 50px;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+input[type=button],button {
+	background-color: #26D1A4;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+input[type=button]:hover, button:hover {
+	border: 1px solid #26D1A4;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #2ecc71;
+	cursor: pointer;
+}

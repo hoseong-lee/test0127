@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+	background-color: #eceeff;
+}
+tr{
+	margin: 2em;
+	width: 70%;
+	height: 15%;
+	border-color: none;
+	border-width: thick;
+	margin-top : 50px;
+	background-color: #2ecc71/* abe48b */;
+	border-radius: 15px;
+	border-color: #2ecc71;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+a, a:after {
+	color: black;
+	
+}

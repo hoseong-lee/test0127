@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+body {
+	background-color: #eceeff;
+	font-family: 'Jua', sans-serif;
+}
+
+h1, h2, h3, label, input, #mif, textarea, button {
+	font-family: 'Jua', sans-serif;
+}
+
+
+
+#lat1, #lat2, #lat3, #lon1, #lon2, #lon3, #ilocationlat, #ilocationlon,
+	#select1, #select2, #select3 {
+	width: 5%;
+	clear: both;
+}
+
+a, a:after {
+	color: black;
+	
+}
+
+td {
+	align-content: center;
+}
+
+table {
+	align-content: center;
+	width: 15%;
+	margin: 1em;
+	border-color: none;
+	background-color: #2ecc71 abe48b;
+	border-radius: 15px;
+	border-color: #2ecc71;
+	clear: both;
+} */
+
+input[type=text] {
+	background-color: #eceeff;
+	border-color: none;
+	width: 40%;
+	height: 30px;
+	clear: both;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+textarea {
+	
+		background-color: #eceeff;
+	border-color: none;
+	width: 25%;
+	height: 30px;
+	clear: both;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+#div2 {
+	
+	width: 30%;
+}
+
+
+
+button {
+	background-color: #26D1A4;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-decoration: none;
+	/*   margin: 4px 2px;
+ */
+	cursor: pointer;
+	border-radius: 5px;
+	clear: both;
+}
+/* 
+div {
+	border: 1px solid #00ff0000;
+} */
+
+#h2 {
+	margin-top: 100px;
+	height: 100px;
+	width: 200px;
+}
+
+label {
+	width: 30%;
+	clear: both;
+}
+
+#mif {
+	border-bottom-color: none;
+}
+
+#moim {
+	width: 520px;
+	height: 250px;
+	border: 1px solid #999;
+	display: inline-block;
+	background-color: #2ecc71;
+	border-color: #2ecc71;
+	border-radius: 10px;
+}
+
+
+#favorite {
+	margin: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+select {
+	clear: both;
+}
+
+
+
+#body {
+	white-space: nowrap;
+	clear: both;
+	width: 1000px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 50px;
+}
+
+#lst {
+	position: absolute;
+	margin-top: 50px;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+
+
+
+#div_left {
+	
+	float: left;
+	
+}
+
+
+input[type=reset] {
+	border: none;
+	color: black;
+	padding: 10px 25px;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+input[type=reset]:hover {
+	border: 1px solid #26D1A4;
+	border-radius: 5px;
+	background-color: #000;
+	color: white;
+	cursor: pointer;
+}
+
+
+input[type=button], button {
+	background-color: #26D1A4;
+	border: none;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	clear: both;
+
+}
+
+input[type=button]:hover, button:hover {
+	border: 1px solid #26D1A4;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #2ecc71;
+	cursor: pointer;
+}
