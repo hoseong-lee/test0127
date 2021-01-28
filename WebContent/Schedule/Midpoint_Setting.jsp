@@ -862,8 +862,8 @@ String memo = request.getParameter("memo");
 						style="text-align: center">
 						<button id="btn_select" type="button" onclick="">사용자1 주소
 							좌표 구하기</button> <label>사용자1 위도</label> <input type="text" class="lat1"
-						style="text-align: center" id="lat1"> <label>사용자1
-							경도</label><input type="text" class="lon1" id="lon1"></td>
+						style="text-align: center" id="lat1" name="lat1"> <label>사용자1
+							경도</label><input type="text" class="lon1" id="lon1" name="lon1"></td>
 				</tr>
 				<tr>
 					<td align="center"><label>사용자2 이름</label> <input type="text"
@@ -872,8 +872,8 @@ String memo = request.getParameter("memo");
 						name="fullAddr" value="" size="40">
 						<button id="btn_select2" type="button" onclick="">사용자2 주소
 							좌표 구하기</button> <label>사용자2 위도</label> <input type="text" class="lat2"
-						id="lat2" style="text-align: center"> <label>사용자2
-							경도</label> <input type="text" class="lon2" id="lon2"
+						id="lat2" name="lat2" style="text-align: center"> <label>사용자2
+							경도</label> <input type="text" class="lon2" id="lon2" name="lon2"
 						style="text-align: center"></td>
 				</tr>
 				<tr>
@@ -888,8 +888,8 @@ String memo = request.getParameter("memo");
 
 						<button id="btn_select3" type="button" onclick="">사용자3 주소
 							좌표 구하기</button> <label>사용자3 위도</label> <input type="text" class="lat3"
-						id="lat3" style="text-align: center"> <label>사용자3
-							경도</label> <input type="text" class="lon3" id="lon3"></td>
+						id="lat3" name="lat3" style="text-align: center"> <label>사용자3
+							경도</label> <input type="text" class="lon3" name="lon3" id="lon3"></td>
 				</tr>
 				<tr>
 					<td>

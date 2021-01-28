@@ -11,6 +11,14 @@ String username3 = request.getParameter("select3");
 String datetime = request.getParameter("datetime");
 String title = request.getParameter("title");
 String memo = request.getParameter("memo");
+
+String lon1 = request.getParameter("lon1");
+String lon2 = request.getParameter("lon2");
+String lon3 = request.getParameter("lon3");
+String lat1 = request.getParameter("lat1");
+String lat2 = request.getParameter("lat2");
+String lat3 = request.getParameter("lat3");
+
 %>
 
 <!DOCTYPE html>
@@ -161,13 +169,13 @@ String memo = request.getParameter("memo");
 					});
 
 		}
-		
+	
 		
 		//1번째 장소
 		marker_1 = new Tmapv2.Marker(
 				{
-					position : new Tmapv2.LatLng(37.57678, 126.97837),
-					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_s.png",
+					position : new Tmapv2.LatLng(<%=lat1%>, <%=lon1%>),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_1.png",
 					iconSize : new Tmapv2.Size(24, 38),
 					map : map
 				});
@@ -175,16 +183,24 @@ String memo = request.getParameter("memo");
 		//2번째 장소
 		marker_2 = new Tmapv2.Marker(
 				{
-					position : new Tmapv2.LatLng(37.44036, 127.12685),
-					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_e.png",
+					position : new Tmapv2.LatLng(<%=lat2%>, <%=lon2%>),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_b_m_2.png",
 					iconSize : new Tmapv2.Size(24, 38),
 					map : map
 				});
 		//3번째 장소
 		marker_3 = new Tmapv2.Marker(
 				{
-					position : new Tmapv2.LatLng(37.44036, 128.12685),
-					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_r_m_e.png",
+					position : new Tmapv2.LatLng(<%=lat3%>, <%=lon3%>),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_w_m_3.png",
+					iconSize : new Tmapv2.Size(24, 38),
+					map : map
+				});
+		
+		marker_4 = new Tmapv2.Marker(
+				{
+					position : new Tmapv2.LatLng(<%=lat%>, <%=lon%>),
+					icon : "http://tmapapi.sktelecom.com/upload/tmap/marker/pin_g_m_p.png",
 					iconSize : new Tmapv2.Size(24, 38),
 					map : map
 				});
@@ -192,8 +208,8 @@ String memo = request.getParameter("memo");
 		new Tmapv2.extension.MeasureDistance({
 			map: map
         });
-	}
 	
+	}
 </script>
 </head>
 <center>
@@ -224,8 +240,8 @@ String memo = request.getParameter("memo");
 		</div>
 		<div class="map_act_btn_wrap clear_box"></div>
 		<br />
-dockertest
-			<form action="scheduleinfo.jsp" method="post" accept-charset="UTF-8">
+<!-- <input type="button" id="mapbutton" onclick="map_button();" value="거리 구하기"/>
+ -->			<form action="scheduleinfo.jsp" method="post" accept-charset="UTF-8">
 				
 				
 	
